@@ -112,6 +112,10 @@ body {
   
 }
 
+div#page-wrap{
+  margin: 0 auto;
+}
+
 .header {
   background-image: url("img/header.jpg");
   height:27px;
@@ -121,8 +125,13 @@ body {
   font-weight: bold;
   padding: 3px 2px;
   text-align: center;
+  vertical-align: middle;
   position:relative;
   z-index:1;
+}
+
+.header p {
+vertical-align: middle;
 }
 
 .header a {
@@ -131,6 +140,7 @@ body {
   font-family: monospace;
   font-size: 11px;
   font-weight: bold;
+  vertical-align: middle;
   text-align: center;
   color: #000;
   padding: 10px 6px;
